@@ -1,0 +1,64 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+}
+
+#container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+form {
+    text-align: center;
+}
+
+.search-bar {
+    width: 70%;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 50px;
+    border: 1px solid #ccc;
+}
+
+.search-button, .advanced-button {
+    width: 30%;
+    padding: 10px;
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #fff;
+    background-color: #4285f4; /* Google Blue */
+}
+
+.lucky-button {
+    display: block;
+    text-align: center;
+    margin-top: 10px;
+    color: #4285f4; /* Google Blue */
+    text-decoration: none;
+}
+
+.nav-link {
+    display: block;
+    margin-top: 10px;
+    text-align: right;
+    text-decoration: none;
+    color: #555;
+}
+
+.advanced-options {
+    text-align: left;
+}
+
+.advanced-options label {
+    display: block;
+    margin-top: 10px;
+    color: #555;
+}
